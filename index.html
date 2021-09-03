@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>PHONE DIRECTORY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form >
+        <header class="bg-dark mb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="navbar justify-content-between">
+                            <h3>Phone Directory</h3>
+                            <form class="form-inline"></form>
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault(); onFormSubmit(); " autocomplete="off">
+                    <div>
+                        <label>Full Name</label>
+                        <input type="text" id="fullname" value="" placeholder="Enter your full name" required="true">
+                    </div>
+
+                    <div>
+                        <label>Contact Number</label>
+                        <input type="text" id="Contact" value="" placeholder="Enter your contact number"
+                            required="true">
+                    </div>
+
+
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+            </td>
+
+        </tr>
+    </table>
+
+    <br> <br> <br>
+    <table class="list" id="classEmployee">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Contact Number</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+</div>
+<div>
